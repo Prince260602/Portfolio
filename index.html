@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-4FFCWEC2WB", {
+                page_path: window.location.pathname,
+            });
+        </script>
+        <title> Prince  </title>
+        <meta name="description" content="Prince is a software engineer who builds accessible, inclusive products and digital experiences for the web." />
+        <meta name="image"  />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:site_name" content="Prince" />
+        <meta property="og:type" content="website" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:creator" content="#" />
+        <meta property="twitter:site" content="#" />
+        <meta property="og:title" content="Prince" />
+        <meta property="og:description" content="Prince is a software engineer who builds accessible, inclusive products and digital experiences for the web." />
+        <meta property="og:url"  />
+        <meta property="og:image"  />
+        <meta property="twitter:title" content="Prince" />
+        <meta property="twitter:description" content="Prince is a software engineer who builds accessible, inclusive products and digital experiences for the web." />
+        <meta property="twitter:url"  />
+        <meta property="twitter:image"  />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css">
+
+
+        <link rel="icon" type="image/png" sizes="512x192" href="images/android-chrome-512x512.jpg" />
+        <link rel="icon" type="image/png" sizes="192x192" href="images/android-chrome-192x192.jpg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.jpg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.jpg" />
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.jpg" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#0f172a" />
+        <meta name="theme-color" content="#0f172a" />
+        <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
+        <meta name="next-head-count" content="29" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+        <link rel="preload" href="/_next/static/media/730e8169368baf37-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/media/f1f0c35b32161446-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/media/d593a8df799d4ab1-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/media/dc792b508e6f91c7-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/media/84d3493a9fd22f1c-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/media/fcb100c7607696fd-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/media/d90f295d0c348006-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/media/579e0f95cacfae57-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/media/828a494e04a45cbd-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust" />
+        <link rel="preload" href="/_next/static/css/style.css" as="style" />
+        <link rel="stylesheet" href="css/style.css" data-n-g="" />
+        <script nomodule="" src="js/script-10.js"></script>
+        <script src="js/script-9.js" ></script>
+        <script src="js/script-8.js" ></script>
+        <script src="js/script-7.js"  ></script>
+        <script src="js/script-1.js" ></script>
+        <script src="js/script-6.js" ></script>
+        <script src="js/script-5.js" ></script>
+        <script src="js/script-4.js" ></script>
+        <script src="js/script-2.js" ></script>
+        <script src="js/script-3.js"></script>
+        <style>
+            .text-justify {
+              text-align: justify;
+            }
+          </style>
+
+    </head>
+    <body class="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+
+        <script>
+           const texts = ["Full Stack Web Developer","MERN Stack Developer","Frontend Developer", "Backend Developer", "Software Engineer"];
+        let currentTextIndex = 0;
+        let currentCharIndex = 0;
+        let currentText = texts[currentTextIndex];
+        let displayedText = "";
+
+        function updateText() {
+            if (currentCharIndex < currentText.length) {
+                displayedText += currentText[currentCharIndex];
+                document.querySelector(".typing").textContent = displayedText;
+                currentCharIndex++;
+            } else {
+                currentCharIndex = 0;
+                currentTextIndex = (currentTextIndex + 1) % texts.length;
+                currentText = texts[currentTextIndex];
+                displayedText = "";
+            }
+        }
+
+        setInterval(updateText, 400); 
+
+        </script>
+
+        <div id="__next">
+            <div class="__variable_20b187 group/spotlight relative">
+                <div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" style="background: radial-gradient(600px circle at 0px 0px, rgba(29, 78, 216, 0.15), transparent 80%);"></div>
+                <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+                    <a
+                        href="#content"
+                        class="absolute left-0 top-0 block -translate-x-full rounded bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppercase tracking-widest text-white focus-visible:translate-x-0"
+                    >
+                        Skip to Content
+                    </a>
+                    <div class="lg:flex lg:justify-between lg:gap-4">
+                        <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+                            <div>
+                                <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="/">Prince</a></h1>
+                                <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"><span class="typing">Full Stack Web Developer</span></h2>
+                                <p class="mt-4 max-w-xs leading-normal text-justify">I'm a full Stack Web Developer with extensive experience for over 1 years. My expertise is to create and develop website and many more.</p>
+                                <nav class="nav hidden lg:block" aria-label="In-page jump links">
+                                    <ul class="mt-16 w-max">
+                                        <li>
+                                            <a class="group flex items-center py-3" href="#about">
+                                                <span
+                                                    class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
+                                                ></span>
+                                                <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="group flex items-center py-3" href="#experience">
+                                                <span
+                                                    class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
+                                                ></span>
+                                                <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="group flex items-center py-3" href="#projects">
+                                                <span
+                                                    class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
+                                                ></span>
+                                                <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="group flex items-center py-3" href="#contact">
+                                                <span
+                                                    class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
+                                                ></span>
+                                                <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Contact</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
+                                <li class="mr-5 text-xs shrink-0">
+                                    <a class="block hover:text-slate-200" href="https://github.com/Prince260602" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub">
+                                        <span class="sr-only">GitHub</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="mr-5 text-xs shrink-0">
+                                    <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/prince-25b2b2301/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn">
+                                        <span class="sr-only">LinkedIn</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                            <path
+                                                d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </header>
+                        <main id="content" class="pt-24 lg:w-1/2 lg:py-24">
+                            <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
+                                <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                                    <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
+
+                                </div>
+                                <div>
+                                    <!--  -->
+                                    <p class="mb-4 text-justify">
+                                        Hello! My name is Prince, and I’m passionate about creating projects that live on the internet. My interest in
+                                        <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                            <span class="sr-only">Software Engineering</span><span class="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">S</span>
+                                            <span class="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">o</span>
+                                            <span class="group-hover/korok:text-yellow-400 transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">f</span>
+                                            <span class="group-hover/korok:text-lime-400 transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">t</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">w</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">a</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">r</span>
+                                            <span class="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">e</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">�&nbsp;</span>
+                                            <span class="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">E</span>
+                                            <span class="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]" aria-hidden="true">n</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">g</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">i</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">n</span>
+                                            <span class="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">e</span>
+                                            <span class="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">e</span>
+                                            <span class="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]" aria-hidden="true">r</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">i</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">n</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">g</span>
+                                        </span>,
+                                        <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                            <span class="sr-only">Full Stack Web Developer</span><span class="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">F</span>
+                                            <span class="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">u</span>
+                                            <span class="group-hover/korok:text-yellow-400 transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">l</span>
+                                            <span class="group-hover/korok:text-lime-400 transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">l</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">-</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">S</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">t</span>
+                                            <span class="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">a</span>
+                                            <span class="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">c</span>
+                                            <span class="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]" aria-hidden="true">k</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">-</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">W</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">e</span>
+                                            <span class="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">b</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">-</span>
+                                            <span class="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">D</span>
+                                            <span class="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]" aria-hidden="true">e</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">v</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">e</span>
+                                            <span class="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">l</span>
+                                            <span class="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">o</span>
+                                            <span class="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]" aria-hidden="true">p</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">e</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">r</span>
+                                        </span> and
+                                        <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                        <span class="sr-only">Mern Stack</span><span class="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">M</span>
+                                            <span class="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">E</span>
+                                            <span class="group-hover/korok:text-yellow-400 transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">R</span>
+                                            <span class="group-hover/korok:text-lime-400 transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">N</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">�&nbsp;</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">S</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">t</span>
+                                            <span class="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">a</span>
+                                            <span class="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">c</span>
+                                            <span class="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]" aria-hidden="true">k</span>
+                                        </span>
+                                        has driven me to continuously learn and build.
+                                           </p>
+                                    <p class="mb-4 text-justify" >
+                                        Fast-forward to today, and I’ve had the privilege of working on various projects where I enjoy the intersection of design and engineering—crafting software that not only 
+                                        looks great but is also well-built under the hood. In my free time, I’ve completed a comprehensive  <!-- -->
+                                        <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                                            <span class="sr-only">Mern Stack</span><span class="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]" aria-hidden="true">M</span>
+                                            <span class="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]" aria-hidden="true">E</span>
+                                            <span class="group-hover/korok:text-yellow-400 transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]" aria-hidden="true">R</span>
+                                            <span class="group-hover/korok:text-lime-400 transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]" aria-hidden="true">N</span>
+                                            <span class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]" aria-hidden="true">�&nbsp;</span>
+                                            <span class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]" aria-hidden="true">S</span>
+                                            <span class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]" aria-hidden="true">t</span>
+                                            <span class="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]" aria-hidden="true">a</span>
+                                            <span class="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]" aria-hidden="true">c</span>
+                                            <span class="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]" aria-hidden="true">k</span>
+                                        </span>
+                                        <!-- -->  course, mastering Frontend, Backend, and Database technologies while building real-world projects with APIs.
+                                    </p>
+                                    <p class="text-justify">
+                                        When I’m not at the computer, you can find me reading, hanging out with friends, or listening to music.<!-- -->
+                                    </p>
+                                </div>
+
+                                <!--       -->
+
+                                <div class="tech mt-2 flex flex-wrap gap-4">
+                                    <!--  Stack #1: Languages -->
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-mongodb-plain colored big-icon"></i>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-express-original colored big-icon"></i>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-react-original colored big-icon"></i>
+                                        </div>
+                                       
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-nodejs-plain colored big-icon"></i>
+                                        </div>
+                                       
+                                    </div>
+                                
+                                    <!--  Stack #2: Front-End -->
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-html5-plain-wordmark colored big-icon"></i>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-css3-plain-wordmark colored big-icon"></i>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-javascript-plain colored big-icon"></i>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                    <!-- Stack #3: Back-End -->
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-mysql-plain-wordmark colored big-icon"></i>
+                                        </div>
+                                       
+                                    </div>
+
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-java-plain-wordmark colored big-icon"></i>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-oracle-original colored big-icon"></i>
+                                        </div>
+                                       
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-tailwindcss-plain colored big-icon"></i>
+                                        </div>
+                                 
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-bootstrap-plain colored big-icon"></i>
+                                        </div>
+                                       
+                                    </div>
+                                
+                                    <!-- Stack #4: Tools -->
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-git-plain-wordmark colored big-icon"></i>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                    <div class="icon-box p-4 bg-gray-800 rounded-md shadow-lg flex flex-col items-center">
+                                        <div class="icon-circle">
+                                            <i class="devicon-visualstudio-plain colored big-icon"></i>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                
+                            </section>
+                            <!-- .....................experience.......................... -->
+
+
+                            <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
+                                <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                                    <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Experience</h2>
+                                </div>
+                                <div>
+                                    <ol class="group/list">
+                                        <!-- /..............................4rd............................. -->
+                                        <li class="mb-12">
+                                            <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                                <div
+                                                    class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+                                                ></div>
+                            
+                                                <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="July to December 2016">July — August</header>
+                                                <div class="z-10 sm:col-span-6">
+                                                    <h3 class="font-medium leading-snug text-slate-200">
+                                                        <div>
+                                                            <a
+                                                                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                                                                
+                                                                target="_blank"
+                                                                rel="noreferrer noopener"
+                                                                aria-label="Software Engineer Co-op at Starry (opens in a new tab)"
+                                                            >
+                                                                <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                                <span>
+                                                                   full Stack Web Developer ·<!-- -->
+                                                                    <span class="inline-block">
+                                                                        Octanet Pvt Ltd.
+                                                                        <!-- <svg
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                            viewBox="0 0 20 20"
+                                                                            fill="currentColor"
+                                                                            class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                            aria-hidden="true"
+                                                                        >
+                                                                            <path
+                                                                                fill-rule="evenodd"
+                                                                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                                clip-rule="evenodd"
+                                                                            ></path>
+                                                                        </svg> -->
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </h3>
+                                                    <p class="mt-2 text-sm leading-normal text-justify"> I worked as a Web Developer, where I leveraged my skills in HTML, CSS, and JavaScript to build and enhance web applications. My role involved creating visually appealing and responsive user interfaces using HTML and CSS, while utilizing JavaScript to implement dynamic features and improve user interactions. 
+                                                        I was responsible for managing various development tasks, from coding and debugging to optimizing performance and ensuring cross-browser compatibility. Through these tasks, I contributed to delivering high-quality web solutions that met both design and functionality requirements. </p>
+                                                    <ul class="mt-2 flex flex-wrap" aria-label="Related links">
+                                                       
+                                                    </ul>
+                                                    <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML</div></li>
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">CSS</div></li>
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">JavaScript</div></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- ..........................3rd......................... -->
+
+                                        <li class="mb-12">
+                                            <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                                <div
+                                                    class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+                                                ></div>
+                                                <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2018 to 2024">July — July</header>
+                                                <div class="z-10 sm:col-span-6">
+                                                    <h3 class="font-medium leading-snug text-slate-200">
+                                                        <div>
+                                                            <a
+                                                                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                                                               
+                                                                target="_blank"
+                                                                rel="noreferrer noopener"
+                                                                aria-label="Lead Engineer at Upstatement (opens in a new tab)"
+                                                            >
+                                                                <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                                <span>
+                                                                    Web Developer and Designing ·<!-- -->
+                                                                    <span class="inline-block">
+                                                                        Oasis infobyte Pvt Ltd.
+                                                                        <!-- <svg
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                            viewBox="0 0 20 20"
+                                                                            fill="currentColor"
+                                                                            class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                            aria-hidden="true"
+                                                                        >
+                                                                            <path
+                                                                                fill-rule="evenodd"
+                                                                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                                clip-rule="evenodd"
+                                                                            ></path>
+                                                                        </svg> -->
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- <div><div class="text-slate-500" aria-hidden="true">Senior Engineer</div></div> -->
+                                                        <!-- <div><div class="text-slate-500" aria-hidden="true">Engineer</div></div> -->
+                                                    </h3>
+                                                    <p class="mt-2 text-sm leading-normal text-justify">
+                                                        At Oasis Infobyte, I worked as a web developer where I specialized in designing and developing web applications using HTML, CSS, and JavaScript.
+                                                         My role involved building interactive and responsive interfaces with React, ensuring a seamless user experience. I also worked extensively with Node.js for backend development, and MongoDB for managing and storing data. 
+                                                         My responsibilities included implementing various features, optimizing performance, and integrating APIs to enhance functionality.
+                                                         Additionally, I handled a range of build tasks, contributing to the successful delivery of high-quality projects.
+                                                    </p>
+                                                    <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                        
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
+                                                       
+                                                        
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">MongoDB</div></li>
+                                                    
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Node.js</div></li>
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Express.js</div></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- -----------------------------------experience data---------------- -->
+
+                                        <li class="mb-12">
+                                            <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                                <div
+                                                    class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+                                                ></div>
+                                                <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="July to December 2015">June — June</header>
+                                                <div class="z-10 sm:col-span-6">
+                                                    <h3 class="font-medium leading-snug text-slate-200">
+                                                        <div>
+                                                            <a
+                                                                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                                                                
+                                                                target="_blank"
+                                                                rel="noreferrer noopener"
+                                                                aria-label="Creative Technologist Co-op at MullenLowe U.S. (opens in a new tab)"
+                                                            >
+                                                                <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                                <span>
+                                                                    Web Developer ·<!-- -->
+                                                                    <span class="inline-block">
+                                                                        StartHere.in
+                                                                        <!-- <svg
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                            viewBox="0 0 20 20"
+                                                                            fill="currentColor"
+                                                                            class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                            aria-hidden="true"
+                                                                        >
+                                                                            <path
+                                                                                fill-rule="evenodd"
+                                                                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                                clip-rule="evenodd"
+                                                                            ></path>
+                                                                        </svg> -->
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </h3>
+                                                    <p class="mt-2 text-sm leading-normal text-justify">
+                                                        I worked as a web developer, where I was responsible for designing and developing dynamic web applications using a range of technologies. 
+                                                        I utilized HTML and CSS to craft responsive and visually appealing layouts, and leveraged JavaScript to create interactive features. On the frontend,
+                                                         I employed React to build scalable and efficient user interfaces. For the backend, I used Node.js to develop server-side logic and integrated MongoDB for seamless database management. 
+                                                         My role also involved managing various tasks, from implementing APIs to optimizing performance, ensuring that our projects met both functional and aesthetic standards.
+                                                
+                                                    <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">HTML</div></li>
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">CSS</div></li>
+                                                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">JavaScript</div></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <div class="mt-12">
+                                        <a
+                                            class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
+                                            href="/resume.pdf"
+                                            target="_blank"
+                                            rel="noreferrer noopener"
+                                            aria-label="View Full Resume (opens in a new tab)"
+                                        >
+                                            <span>
+                                                View Full<!-- -->
+                                                <span class="inline-block">
+                                                    Resume
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                        class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                        aria-hidden="true"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                            clip-rule="evenodd"
+                                                        ></path>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- ---------------------------------------project------------------ -->
+                            <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Selected projects">
+                                <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                                    <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Projects</h2>
+                                </div>
+                                <div>
+                                    <ul class="group/list">  
+                                        
+                                        <li class="mb-12">
+                                            <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                                <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                                <div class="z-10 sm:order-2 sm:col-span-6">
+                                                    <h3>
+                                                        <a
+                                                            class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                                                            href="https://newmentorsite.vercel.app/"
+                                                            target="_blank"
+                                                            rel="noreferrer noopener"
+                                                            aria-label="Build a Spotify Connected App (opens in a new tab)"
+                                                        >
+                                                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                            <span>
+                                                                TEN Mentor
+                                                                <span class="inline-block">
+                                                                    
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20"
+                                                                        fill="currentColor"
+                                                                        class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                        aria-hidden="true"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                            clip-rule="evenodd"
+                                                                        ></path>
+                                                                    </svg>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+                                                    <p class="mt-2 text-sm leading-normal text-justify">
+                                                        I recently completed a significant project using the MERN stack. This project was designed to connect mentors and mentees, offering a comprehensive solution for mentorship and communication. On the frontend,
+                                                         I utilized React, HTML, CSS, and styling libraries like Tailwind to build an engaging and responsive user interface. 
+                                                         The backend was developed using Node.js with Express.js, and MongoDB was employed for managing user data and session information. 
+                                                         The platform features secure user authentication, including sign-up, login, profile managemen0t and Testimonial and many more features. 
+                                                         Users can create detailed mentor and mentee profiles, book sessions, and communicate in real-time through an integrated chat system. Additionally, 
+                                                         an admin panel was included to manage user accounts and moderate content. This project significantly enhanced my full-stack development skills, especially in real-time communication and database integration using the MERN stack.
+                                                    </p>
+                                                </div>
+                                                <img
+                                                    alt="Ten Mentor"
+                                                    loading="lazy"
+                                                    width="200"
+                                                    height="48"
+                                                    decoding="async"
+                                                    class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                                                    src="/images/ten mentor.png"
+                                                />
+                                            </div>
+                                        </li>
+
+                                        <li class="mb-12">
+                                            <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                                <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                                <div class="z-10 sm:order-2 sm:col-span-6">
+                                                    <h3>
+                                                        <a
+                                                            class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                                                            href="https://github.com/Prince260602/-Weather-app.git"
+                                                            target="_blank"
+                                                            rel="noreferrer noopener"
+                                                            aria-label="Build a Spotify Connected App (opens in a new tab)"
+                                                        >
+                                                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                            <span>
+                                                                Weather
+                                                                <span class="inline-block">
+                                                                    App
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20"
+                                                                        fill="currentColor"
+                                                                        class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                        aria-hidden="true"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                            clip-rule="evenodd"
+                                                                        ></path>
+                                                                    </svg>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+                                                    <p class="mt-2 text-sm leading-normal text-justify">
+                                                        Our weather app provides you with accurate and up-to-date weather information, powered by a reliable public API. With just a few clicks, 
+                                                        you can easily find the current weather conditions for any location around the globe. Simply enter the name of the city or town you’re interested in, 
+                                                        and our app will display key details such as the temperature, humidity, weather description, and more.
+                                                    </p>
+                                                </div>
+                                                <img
+                                                    alt="Weather App"
+                                                    loading="lazy"
+                                                    width="200"
+                                                    height="48"
+                                                    decoding="async"
+                                                    class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                                                    src="/images/weather.png"
+                                                />
+                                            </div>
+                                        </li>
+
+                                        <li class="mb-12">
+                                            <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                                <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                                <div class="z-10 sm:order-2 sm:col-span-6">
+                                                    <h3>
+                                                        <a
+                                                            class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                                                            href="https://github.com/Prince260602/Instamart_Project.git"
+                                                            target="_blank"
+                                                            rel="noreferrer noopener"
+                                                            aria-label="Build a Spotify Connected App (opens in a new tab)"
+                                                        >
+                                                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                            <span>
+                                                                InstaMart
+                                                                <span class="inline-block">
+                                                                    Shopping
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20"
+                                                                        fill="currentColor"
+                                                                        class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                        aria-hidden="true"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                            clip-rule="evenodd"
+                                                                        ></path>
+                                                                    </svg>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+                                                    <p class="mt-2 text-sm leading-normal text-justify">
+                                                        I built the Instamart shopping website using Java and Oracle SQL. This e-commerce platform allows users to browse products, 
+                                                        manage their shopping carts, and complete transactions seamlessly. The backend, developed in Java, handles business logic, processes user requests, 
+                                                        and ensures smooth interaction with the database. Oracle SQL was employed for efficient data management, including storing and retrieving product information, user details, 
+                                                        and transaction records. This project highlights my skills in integrating front-end and back-end technologies, managing relational databases, and creating scalable web applications.
+                                                    </p>
+                                                </div>
+                                                <img
+                                                    alt="Instamart Shopping"
+                                                    loading="lazy"
+                                                    width="200"
+                                                    height="48"
+                                                    decoding="async"
+                                                    class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                                                    src="images/instamart.png"
+                                                />
+                                            </div>
+                                        </li>
+
+
+
+                    
+                                        <li class="mb-12">
+                                            <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                                <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                                <div class="z-10 sm:order-2 sm:col-span-6">
+                                                    <h3>
+                                                        <a
+                                                            class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                                                            href="https://github.com/Prince260602/Chatbot.git"
+                                                            target="_blank"
+                                                            rel="noreferrer noopener"
+                                                            aria-label="Build a Spotify Connected App (opens in a new tab)"
+                                                        >
+                                                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                            <span>
+                                                                Chatbot
+                                                                <span class="inline-block">
+                                                                    App
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20"
+                                                                        fill="currentColor"
+                                                                        class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                        aria-hidden="true"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                            clip-rule="evenodd"
+                                                                        ></path>
+                                                                    </svg>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+                                                    <p class="mt-2 text-sm leading-normal text-justify">
+                                                        The development of an interactive chatbot application involves crafting a seamless user interface that engages users through real-time conversations.
+                                                         The user interface is designed using styling techniques to create an appealing and functional chat window where users can interact with the chatbot. 
+                                                         The application features an input field where users can type their messages and a display area that shows both user queries and the chatbot's responses. 
+                                                         The chatbot is programmed to process user input, generate appropriate responses, and present them in a conversational manner.
+                                                    </p>
+                                                </div>
+                                                <img
+                                                    alt="Chatbot App"
+                                                    loading="lazy"
+                                                    width="200"
+                                                    height="48"
+                                                    decoding="async"
+                                                    class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                                                    src="images/chatbot.png"
+                                                />
+                                            </div>
+                                        </li>
+                                        <li class="mb-12">
+                                            <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                                <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                                <div class="z-10 sm:order-2 sm:col-span-6">
+                                                    <h3>
+                                                        <a
+                                                            class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                                                            href="https://github.com/Prince260602/OctaNet-internship-Tasks.git"
+                                                            target="_blank"
+                                                            rel="noreferrer noopener"
+                                                            aria-label="Build a Spotify Connected App (opens in a new tab)"
+                                                        >
+                                                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                            <span>
+                                                                To-do-List
+                                                                <span class="inline-block">
+                                                                    App
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20"
+                                                                        fill="currentColor"
+                                                                        class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                        aria-hidden="true"
+                                                                    >
+                                                                        <path
+                                                                            fill-rule="evenodd"
+                                                                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                            clip-rule="evenodd"
+                                                                        ></path>
+                                                                    </svg>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </h3>
+                                                    <p class="mt-2 text-sm leading-normal text-justify">
+                                                        I have developed a to-do list application that provides users with an intuitive interface to manage their tasks effectively. 
+                                                        The app allows users to add, edit, and delete tasks, making it easy to keep track of their daily activities. It features a clean and simple design, ensuring a smooth user experience. 
+                                                        The application supports task prioritization and categorization, enabling users to organize their to-dos efficiently. Overall, this app aims to enhance productivity by offering a straightforward solution for task management.
+                                                    </p>
+                                                </div>
+                                                <img
+                                                    alt="To-do-List App"
+                                                    loading="lazy"
+                                                    width="200"
+                                                    height="48"
+                                                    decoding="async"
+                                                    class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                                                    src="images/todo list (1).png"
+                                                />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="mt-12">
+                                        <a class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" aria-label="View Full Project Archive" href="https://github.com/Prince260602">
+                                            <span>
+                                                <span class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">View Full Project<!-- --> </span>
+                                                <span class="whitespace-nowrap">
+                                                    <span class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">Archive</span>
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                        class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
+                                                        aria-hidden="true"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+                                                            clip-rule="evenodd"
+                                                        ></path>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- <section id="contact"  class=" contact section mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"    > -->
+                             
+
+
+                                <section id="contact" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+                                    <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                                        <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Contact</h2>
+                                    </div>
+                                    <div class="bg-slate-900 p-6 rounded-lg shadow-md">
+                                        <div class="text-center">
+                                            <h3 class="text-2xl font-bold text-slate-200 mb-4">Have You Any Question?</h3>
+                                            <h4 class="text-lg font-semibold text-slate-400 mb-6">I'M AT YOUR SERVICES</h4>
+                                        </div>
+                                        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                                            <!-- contact info details start -->
+                                            <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-md shadow-md">
+                                                <div class="text-teal-300 mb-2">
+                                                    <i class="fa fa-phone text-2xl"></i>
+                                                </div>
+                                                <h4 class="text-lg font-semibold text-slate-200">Contact Me On</h4>
+                                                <p class="text-slate-400">+91 7503733474</p>
+                                            </div>
+                                            <!-- contact info details end -->
+                                
+                                            <!-- contact info details start -->
+                                            <div class="flex flex-col items-center text-center p-4 bg-slate-800 rounded-md shadow-md">
+                                                <div class="text-teal-300 mb-2">
+                                                    <i class="fa fa-envelope text-2xl"></i>
+                                                </div>
+                                                <h4 class="text-lg font-semibold text-slate-200">Email Me On</h4>
+                                                <p class="text-slate-400">princemultaniya89@gmail.com</p>
+                                            </div>
+                                            <!-- contact info details end -->
+                                        </div>
+                                        <div class="mt-12 text-center">
+                                            <h3 class="text-xl font-bold text-slate-200 mb-4">SEND ME AN EMAIL</h3>
+                                            <h4 class="text-lg font-semibold text-slate-400 mb-6">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                                            <!-- contact form -->
+                                            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+                                                <input type="hidden" name="access_key" value="ef7d6db9-5581-4525-b98a-ca42fb0056f4">
+                                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                                    <div>
+                                                        <input type="text" name="name" class="form-control w-full p-3 bg-slate-800 text-slate-200 border border-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300" placeholder="Name" required>
+                                                    </div>
+                                                    <div>
+                                                        <input type="email" name="email" class="form-control w-full p-3 bg-slate-800 text-slate-200 border border-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300" placeholder="Email" required>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <input type="text" name="subject" class="form-control w-full p-3 bg-slate-800 text-slate-200 border border-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300" placeholder="Subject" required>
+                                                </div>
+                                                <div>
+                                                    <textarea name="message" class="form-control w-full p-3 bg-slate-800 text-slate-200 border border-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300" placeholder="Message" rows="4" required></textarea>
+                                                </div>
+                                                <button type="submit" class="w-full py-3 bg-teal-500 text-white font-bold rounded-md hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-300">Send</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                        </main>
+                        <div>
+                            <button
+                                class="hover:-text-teal-300 absolute bottom-0 right-0 inline-flex items-center px-2 py-4 font-medium text-slate-400 hover:-translate-y-2 focus-visible:text-teal-300"
+                                type="button"
+                                aria-haspopup="dialog"
+                                aria-expanded="false"
+                                aria-controls="radix-:R4l6:"
+                                data-state="closed"
+                            >
+                                <span class="sr-only">Click to Contact Me</span>
+                                <img alt="Spinning Tardis from Doctor Who" loading="lazy" width="100" height="86" decoding="async" data-img="1" style="color: transparent;" srcset="image_13 1x, image_6 2x" src="software-engineer.png" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+    </body>
+</html>
